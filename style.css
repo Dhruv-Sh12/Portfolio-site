@@ -1,0 +1,193 @@
+.sidebar{
+    background-color: rgb(143, 139, 139);
+    width: 10vw;
+    font-weight: bold;
+   
+    
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+    color: black;
+    text-decoration:none;
+    
+}
+.sidebar nav  a{
+    text-decoration: none;
+}
+.sidebar nav{
+    margin: 10px;
+}
+.container{
+    display: flex;
+}
+.infoCont{
+    background-color: rgb(248, 248, 248);
+    height: 78vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.techpic img{
+height: 310px;
+animation-name: abc2;
+animation-duration: 2s;
+
+
+}
+@keyframes abc2{
+    from{transform: translateX(312px);}
+    to{transform: translateX(0px);}
+   }
+.infoTech{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.name{
+    font-size: 50px;
+    
+    animation-name: abc;
+    animation-duration: 2s;
+}
+@keyframes abc1{
+ from{transform: translateX(-464px);}
+ to{transform: translateX(0px);}
+}
+@keyframes abc{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+   }
+.job{font-size: 20px;
+    animation-name: abc1;
+    animation-duration: 2s;}
+.btn button{
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border-radius: 22px;
+
+}
+.btn button:hover {
+    background-color: white;
+    color: rgb(0, 162, 255);
+}
+.contForm{
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.contForm form div{
+    padding: 10px auto;
+   
+}
+.contForm input{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-right: 20px;
+    margin-top: 10px;
+    
+    justify-content: center;
+
+
+}
+.contForm small{
+    padding-top: 0px;
+}
+.contForm button{margin-top: 20px; color: white;
+    background-color: rgb(0, 162, 255); font-weight: bold;
+    border-radius: 22px; height: 30px; width:70px
+}
+.contForm button:hover { background-color: white;
+    color: rgb(0, 162, 255);}
+.blog h1{
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog button{
+    margin-top: 20px; color: white;
+    background-color: rgb(0, 162, 255); font-weight: bold;
+    border-radius: 22px; height: 30px; width:79px; 
+}
+.blog button:hover {
+    background-color: white;
+    color: rgb(0, 162, 255);
+}
+.b{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.b{
+    border-width: 0.5px;
+    border-color: black;
+    border-style: solid;
+}
+.sc{
+    width: 300px;
+    height: 30px;
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+}
+.sh{
+    height: 100%; width: 100%; background-image: linear-gradient(to right, rgb(128, 0, 0) , rgb(255, 0, 0));;
+   animation-name: h; animation-duration: 2s;
+}
+@keyframes h{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+.scss{
+    height: 100%; width: 80%;  background-image: linear-gradient(to right, rgb(255, 131, 74) , rgb(255, 94, 0));
+    animation-name: c; animation-duration: 2s;
+}
+@keyframes c{
+    from{width: 0%;}
+    to{width: 80%;}
+}
+
+.sj{
+    height: 100%; width: 75%;  background-image: linear-gradient(to right, rgb(255, 208, 0) , rgb(224, 194, 59));
+    animation-name: j; animation-duration: 2s;
+}
+@keyframes j{
+    from{width: 0%;}
+    to{width: 75%;}
+}
+.sja{
+    height: 100%; width: 85%;  background-image: linear-gradient(to right, rgb(205, 243, 135) , rgb(35, 250, 7));
+    animation-name: ja; animation-duration: 2s;
+}
+@keyframes ja{
+    from{width: 0%;}
+    to{width: 85%;}
+}
+.sp{
+    height: 100%; width: 70%;  background-image: linear-gradient(to left, rgb(45, 0, 243) , rgb(98, 90, 219));
+    animation-name: p; animation-duration: 2s;
+}
+@keyframes p{
+    from{width: 0%;}
+    to{width: 70%;}
+}
+iframe{
+    width: 200px; height: 200px;
+
+}
